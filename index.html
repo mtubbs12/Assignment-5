@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Matthew Tubbs Assignment 5</title>
+    <script src = "js/assignment5.js"></script>
+     <link rel="stylesheet" type="text/css" href="styles/assignment5.css" />
+</head>
+
+<body>
+<h1>Matthew Tubbs Assignment 5</h1>
+<section id="title">
+    <hr>
+        <select onchange="MenuChoice()" id="menu">
+            <option>Please select an option</option>
+            <option> Show Area 1</option>
+            <option> Show Area 2</option>
+            <option> Show Area 3</option>
+        </select>
+        <hr>
+</section>
+<section id="area1" class="section1">
+   <hr>
+<label>Please Enter a Customer ID: </label>
+<input type="text" id="custid">
+<br>
+<button onclick="GetOrders()" id="orders">Get Customer Orders</button>
+<hr>
+<br>
+<label id="orderdisplay">Display orders here</label>
+</section>
+<section id="area2" class="section2">
+<label>Please Enter a Customer ID: </label>
+<input type="text" id="custid">
+<br>
+<button onclick="GetOrders()" id="orders">Get Customer Orders</button>
+<hr>
+<br>
+<label id="orderdisplay">Display orders here</label>
+</section>
+<section id="area3" class="section3">
+<br>
+<button onclick="GetOrders()" id="orders">Get Customer Orders</button>
+<hr>
+<br>
+<label id="orderdisplay">Display orders here</label>
+</section>
+<footer>
+  <p>Posted by: Matthew Tubbs</p>
+  <p>Contact information: <a href="mailto:mtubbs12@uab.edu">
+  mtubbs12@uab.edu</a>.</p>
+</footer>
+</body>
+</html>
